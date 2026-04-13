@@ -1,0 +1,20 @@
+Monstera is a:
+ - multi-sensor for home automation (or other purposes), using an esp32 board
+ - primary sensor is a mmWave presence sensor
+    - [DFRobot](https://esphome.io/components/dfrobot_sen0395/)
+    - Hi-Link sensors could also work
+ - Connect secondary sensors using a 3d-printed (maybe) connector, with magnets, over i2c, spi, or uart
+    - sensors could include: 
+        - air quality sensor (BME680? ENS160?)
+        - temp/humidity/pressure (many options, careful to not put them near heat-generating components like last time)
+        - lux sensor (BH1750?)
+        - reed sensor for door open/close
+        - additional mmWave for triangulation or multi-zone
+        - ???
+ - if using a mmWave sensor, generally batteries will not work because of the fairly significant idle power draw
+    - therefore wired for power is a requirement. PoE would be nice-to-have, but potentially too expensive. Standard USB-C (5V) for power will probably be fine
+ - MCU board options:
+    - custom esp32-s3, -c3, or -c6 board is likely overkill (tons of work and super expensive, for what gain)
+    - esp32-s3 superminis are fairly powerful, and readily available e.g. from aliexpress
+    - esp32-c3 superminis are less powerful but super cheap
+    - esp32-c6 supports wifi 6 as well as zigbee, thread, and other 802.15.4 wireless protocols
