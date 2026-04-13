@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Monstera lib") (type "KiCad") (uri "${KIPRJMOD}/libs/monstera_lib.kicad_sym") (options "") (descr ""))
+)
