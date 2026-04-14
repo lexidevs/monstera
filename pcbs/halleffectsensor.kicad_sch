@@ -896,7 +896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b847d04e-96e5-4d51-af04-4a341a504472")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 74.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -956,7 +956,7 @@
 		(instances
 			(project "monstera"
 				(path "/f43ccbf1-dc73-4054-b062-aa68d83d24f7"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -973,7 +973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d50c4483-f05f-422c-8750-e3983a07f053")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR015"
 			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1033,7 +1033,7 @@
 		(instances
 			(project "monstera"
 				(path "/f43ccbf1-dc73-4054-b062-aa68d83d24f7"
-					(reference "#PWR08")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1051,7 +1051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb3181b-90d2-4956-9b39-4c7ad71c7eb9")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 115.57 41.8398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1122,7 +1122,7 @@
 		(instances
 			(project "monstera"
 				(path "/f43ccbf1-dc73-4054-b062-aa68d83d24f7"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1140,7 +1140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4379914-8e9b-45bf-8ced-7cf2b6d4d151")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 56.515 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,7 +1208,7 @@
 		(instances
 			(project "monstera"
 				(path "/f43ccbf1-dc73-4054-b062-aa68d83d24f7"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
