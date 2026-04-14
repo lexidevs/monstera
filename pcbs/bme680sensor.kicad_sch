@@ -1503,7 +1503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab006834-45f7-4d5d-8aba-3711e316dbe2")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 139.7 62.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +1585,7 @@
 		(instances
 			(project "monstera"
 				(path "/9190de51-0203-4be2-9542-a4d25603b986"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)

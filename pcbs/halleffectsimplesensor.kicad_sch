@@ -1158,7 +1158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43c47cd8-d1a1-4558-a884-6ff7500c4cd8")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 129.54 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +1225,7 @@
 		(instances
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1243,7 +1243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f286df3-7bd0-49c3-91d0-9d13e122b1e4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 80.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1303,7 +1303,7 @@
 		(instances
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1321,7 +1321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b8c0d1-8571-4794-981c-f1fefc0b821f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 86.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1381,7 +1381,7 @@
 		(instances
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1399,7 +1399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb748ceb-3224-46aa-a9f1-3d9fbceec8b3")
-		(property "Reference" "J11"
+		(property "Reference" "J8"
 			(at 62.865 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1464,7 +1464,7 @@
 		(instances
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1563,7 +1563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9161a87-fee0-4540-9bd5-e495a2acf393")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 110.49 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1627,7 +1627,7 @@
 		(instances
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
