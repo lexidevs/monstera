@@ -635,9 +635,24 @@
         "filename": "halleffectsensor.kicad_sch",
         "name": "HallEffectSensor",
         "uuid": "f43ccbf1-dc73-4054-b062-aa68d83d24f7"
+      },
+      {
+        "filename": "reedsensor.kicad_sch",
+        "name": "HallEffectSimpleSensor",
+        "uuid": "710d85c0-cfdc-4f58-81c0-a1f477867d67"
+      },
+      {
+        "filename": "reedsensor.kicad_sch",
+        "name": "ReedSensor",
+        "uuid": "ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
+      },
+      {
+        "filename": "bme680sensor.kicad_sch",
+        "name": "BME680Sensor",
+        "uuid": "9190de51-0203-4be2-9542-a4d25603b986"
       }
     ],
-    "used_designators": "U3-4,#PWR8-11,J2-3",
+    "used_designators": "C1-2,SW1,JP1,R1-4,U3-6,#PWR8-17,J2-10",
     "variants": []
   },
   "sheets": [
@@ -648,6 +663,18 @@
     [
       "f43ccbf1-dc73-4054-b062-aa68d83d24f7",
       "HallEffectSensor"
+    ],
+    [
+      "710d85c0-cfdc-4f58-81c0-a1f477867d67",
+      "HallEffectSimpleSensor"
+    ],
+    [
+      "ed19bf13-7d2f-42f1-bf06-d29e3baf4707",
+      "ReedSensor"
+    ],
+    [
+      "9190de51-0203-4be2-9542-a4d25603b986",
+      "BME680Sensor"
     ]
   ],
   "text_variables": {},
