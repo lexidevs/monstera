@@ -618,14 +618,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -640,53 +640,17 @@
     "top_level_sheets": [
       {
         "filename": "monstera.kicad_sch",
-        "name": "Root",
+        "name": "monstera",
         "uuid": "fff95a84-87fe-4c36-b903-523c727aa566"
-      },
-      {
-        "filename": "halleffectsensor.kicad_sch",
-        "name": "HallEffectSensor",
-        "uuid": "f43ccbf1-dc73-4054-b062-aa68d83d24f7"
-      },
-            {
-        "filename": "halleffectsimplesensor.kicad_sch",
-        "name": "HallEffectSimpleSensor",
-        "uuid": "86ba5bd3-984c-4b85-bed3-e21d59b4241f"
       }
-      {
-        "filename": "reedsensor.kicad_sch",
-        "name": "ReedSensor",
-        "uuid": "ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
-      },
-      {
-        "filename": "bme680sensor.kicad_sch",
-        "name": "BME680Sensor",
-        "uuid": "9190de51-0203-4be2-9542-a4d25603b986"
-      },
     ],
-    "used_designators": "U1-7,SW1,R1-4,JP1,J1-10,C1-2,#PWR1-21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "fff95a84-87fe-4c36-b903-523c727aa566",
-      "Root"
-    ],
-    [
-      "f43ccbf1-dc73-4054-b062-aa68d83d24f7",
-      "HallEffectSensor"
-    ],
-    [
-      "86ba5bd3-984c-4b85-bed3-e21d59b4241f",
-      "HallEffectSimpleSensor"
-    ],
-    [
-      "ed19bf13-7d2f-42f1-bf06-d29e3baf4707",
-      "ReedSensor"
-    ],
-    [
-      "9190de51-0203-4be2-9542-a4d25603b986",
-      "BME680Sensor"
+      "monstera"
     ]
   ],
   "text_variables": {},

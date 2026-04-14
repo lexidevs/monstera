@@ -1,3 +1,6 @@
 [submodule "pcbs/libs/ld2450"]
 	path = pcbs/libs/ld2450
 	url = https://github.com/besi/kicad-ld2450
+[submodule "pcbs/libs/aloe"]
+	path = pcbs/libs/aloe
+	url = https://github.com/lexidevs/aloe-lib-kicad
