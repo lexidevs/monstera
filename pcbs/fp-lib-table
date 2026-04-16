@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Aloe") (type "KiCad") (uri "${KIPRJMOD}/libs/aloe/aloe.pretty") (options "") (descr ""))
+	(lib (name "LD2450") (type "KiCad") (uri "${KIPRJMOD}/libs/ld2450/ld2450.pretty") (options "") (descr ""))
+)
