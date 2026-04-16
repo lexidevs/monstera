@@ -1204,174 +1204,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ER_OLEDM0.91_1x-I2C"
-				(at 14.224 -10.668 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-				(at 18.034 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-				(at 42.672 -14.732 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-				(at 26.67 -16.764 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "EastRising"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "ER?OLEDM0.91?1x?I2C*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ER_OLEDM0.91_1x-I2C_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ld2450:ld2450"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1984,16 +1816,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SSD1306, optional\n"
-		(exclude_from_sim no)
-		(at 246.126 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f16c08e-dccd-4745-b0b9-f3b67ae852a5")
-	)
 	(text "5v input required, not 3v3\n"
 		(exclude_from_sim no)
 		(at 239.014 52.07 0)
@@ -2111,22 +1933,10 @@
 		(uuid "900f0f11-0faf-454a-9f99-d065514d1f7a")
 	)
 	(junction
-		(at 210.82 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be673fe4-310f-4576-b784-a71562d6cd83")
-	)
-	(junction
 		(at 81.28 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1da266f-c7ca-4804-aebe-47271cc4194a")
-	)
-	(junction
-		(at 208.28 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8dbea3f-9ec0-4c0d-9f5c-67906b17ff86")
 	)
 	(junction
 		(at 76.2 130.81)
@@ -2158,16 +1968,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 231.14 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0665c0ba-934c-41aa-8a54-06888120579a")
-	)
-	(wire
-		(pts
 			(xy 83.82 123.19) (xy 86.36 123.19)
 		)
 		(stroke
@@ -2195,16 +1995,6 @@
 			(type default)
 		)
 		(uuid "09178cd2-67bc-4135-8e41-0c964a5e9f6c")
-	)
-	(wire
-		(pts
-			(xy 220.98 119.38) (xy 208.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6e636e-1192-4030-aff7-f99c108da5d0")
 	)
 	(wire
 		(pts
@@ -2245,16 +2035,6 @@
 			(type default)
 		)
 		(uuid "17c1fa1e-72a3-42e4-b4da-0468f12f00e3")
-	)
-	(wire
-		(pts
-			(xy 210.82 76.2) (xy 194.31 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b13f2d-6756-410e-8dc1-5bbf120d2305")
 	)
 	(wire
 		(pts
@@ -2435,26 +2215,6 @@
 			(type default)
 		)
 		(uuid "60de6e49-df18-422f-9cac-cf62d48dc0c9")
-	)
-	(wire
-		(pts
-			(xy 208.28 119.38) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62429955-08e8-467d-80d5-f1be14a6ddb3")
-	)
-	(wire
-		(pts
-			(xy 210.82 114.3) (xy 220.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d09c01-b657-481b-8f36-3c20573d723c")
 	)
 	(wire
 		(pts
@@ -2738,16 +2498,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 76.2) (xy 210.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cccf4576-9467-4d46-a445-49496b07900a")
-	)
-	(wire
-		(pts
 			(xy 194.31 58.42) (xy 200.66 58.42)
 		)
 		(stroke
@@ -2768,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 223.52 78.74)
+			(xy 194.31 78.74) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2828,16 +2578,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 106.68) (xy 231.14 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc579126-95a9-44a0-bd6e-618a7a57a8c0")
-	)
-	(wire
-		(pts
 			(xy 218.44 68.58) (xy 218.44 76.2)
 		)
 		(stroke
@@ -2848,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 210.82 76.2)
+			(xy 194.31 76.2) (xy 218.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2935,16 +2675,6 @@
 			(type default)
 		)
 		(uuid "f4837d5a-dca8-4dce-b621-de60df592bec")
-	)
-	(wire
-		(pts
-			(xy 194.31 78.74) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8210b63-b113-4205-a828-22c589f86d2c")
 	)
 	(wire
 		(pts
@@ -3795,84 +3525,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 231.14 92.71 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5215bb3a-6371-49ec-b67a-2cacb3630724")
-		(property "Reference" "#PWR010"
-			(at 231.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 231.14 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1e0c7a2-4ed2-4682-8769-12abc34efa51")
-		)
-		(instances
-			(project "monstera"
-				(path "/fff95a84-87fe-4c36-b903-523c727aa566"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 162.56 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -4407,85 +4059,6 @@
 			(project "monstera"
 				(path "/fff95a84-87fe-4c36-b903-523c727aa566"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 135.89 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f1cc21e-a0bf-4ee3-bf49-f3603c153153")
-		(property "Reference" "#PWR011"
-			(at 231.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 231.14 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adaaa2d8-7a29-400c-80ba-839d5e91ade5")
-		)
-		(instances
-			(project "monstera"
-				(path "/fff95a84-87fe-4c36-b903-523c727aa566"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5053,94 +4626,6 @@
 			(project "monstera"
 				(path "/fff95a84-87fe-4c36-b903-523c727aa566"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 231.14 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9eab644-7365-42f4-86d0-2a576ee66cde")
-		(property "Reference" "U3"
-			(at 240.03 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 240.03 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Aloe:SSD1306_1.3"
-			(at 249.174 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 273.812 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 257.81 133.604 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dffc6810-f234-4b44-ab15-7b2289ea9394")
-		)
-		(pin "3"
-			(uuid "6d727fa8-f2ca-49c9-b9bd-ad81eac5d65d")
-		)
-		(pin "4"
-			(uuid "4199aeb4-4501-4331-9082-646e8bf1599c")
-		)
-		(pin "1"
-			(uuid "52d5bdd7-f397-4774-9587-b75b09353ee6")
-		)
-		(instances
-			(project "monstera"
-				(path "/fff95a84-87fe-4c36-b903-523c727aa566"
-					(reference "U3")
 					(unit 1)
 				)
 			)
