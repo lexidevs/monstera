@@ -524,6 +524,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Magnetic:DRV5033AJxLPG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1146,6 +1245,82 @@
 		(uuid "f7642c92-9d6c-403b-8283-f43c5a523e27")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba3ff38-405a-4f78-84cf-d969e5e71d16")
+		(property "Reference" "H4"
+			(at 48.26 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:DRV5033AJxLPG")
 		(at 123.19 68.58 0)
 		(mirror y)
@@ -1223,9 +1398,167 @@
 			(uuid "56d27815-ed0e-40a5-b1f1-fb8050e4865e")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53421712-a748-4239-b473-f0897018fa11")
+		(property "Reference" "H1"
+			(at 48.26 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6619131f-dd85-4230-83bd-2e0c9bb8912b")
+		(property "Reference" "H3"
+			(at 48.26 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1301,6 +1634,12 @@
 			(uuid "32c9feb5-baff-486c-b986-c2a4195324ec")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "#PWR016")
@@ -1379,6 +1718,12 @@
 			(uuid "97249118-03ac-456a-8012-5566af9ae241")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "#PWR017")
@@ -1419,7 +1764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 62.23 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1462,6 +1807,12 @@
 			(uuid "2b9a47f1-211f-4dd3-ad83-7a2917337453")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "J8")
@@ -1503,7 +1854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 83.82 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1543,9 +1894,91 @@
 			(uuid "c3b5f027-0274-4bc6-b318-7df8b268a292")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84b035b-1a82-455f-8d87-c09833b4c62f")
+		(property "Reference" "H2"
+			(at 48.26 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1585,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 107.95 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1625,6 +2058,12 @@
 			(uuid "0c509bd0-1a5b-4901-a5ad-1c60a7e3b026")
 		)
 		(instances
+			(project "halleffectsimplesensor"
+				(path "/647b61b9-df31-4b3d-a064-f5763d9cc81f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/86ba5bd3-984c-4b85-bed3-e21d59b4241f"
 					(reference "R3")

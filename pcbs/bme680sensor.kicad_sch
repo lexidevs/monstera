@@ -5,6 +5,212 @@
 	(uuid "615d7b86-7e42-4030-b04d-40b9cc93fcf1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Aloe:BME680_Breakout"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME680_Breakout"
+				(at 7.62 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Aloe:BME680_Breakout_Board"
+				(at 36.83 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Bosch gas pressure humidity temperature environment environmental measurement digital"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*LGA*3x3mm*P0.8mm*Clockwise*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BME680_Breakout_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BME680_Breakout_1_1"
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -519,14 +725,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor:BME680"
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -535,8 +744,8 @@
 					)
 				)
 			)
-			(property "Value" "BME680"
-				(at 7.62 11.43 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -545,29 +754,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-				(at 36.83 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -578,7 +765,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Bosch gas pressure humidity temperature environment environmental measurement digital"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -589,7 +776,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*LGA*3x3mm*P0.8mm*Clockwise*"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -600,162 +787,38 @@
 					)
 				)
 			)
-			(symbol "BME680_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BME680_1_1"
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type none)
 					)
 				)
 			)
@@ -1027,12 +1090,6 @@
 		(uuid "96351c28-e09e-4109-b98e-5d92a04ead93")
 	)
 	(junction
-		(at 125.73 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f56c50d-28c5-4e0b-9e2e-fd35e12f89ed")
-	)
-	(junction
 		(at 96.52 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1045,10 +1102,10 @@
 		(uuid "a0d2e168-9064-418c-826c-bc4c1cf7bfe3")
 	)
 	(junction
-		(at 125.73 76.2)
+		(at 118.11 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b35c50fc-f691-43c1-80f1-dd41b31f218e")
+		(uuid "c545a9c4-6d89-4621-828b-11605f02f38e")
 	)
 	(junction
 		(at 73.66 76.2)
@@ -1057,26 +1114,10 @@
 		(uuid "c712d7b5-9bcf-45db-8e1d-96e001a72216")
 	)
 	(junction
-		(at 107.95 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eec82d3b-760d-443f-981c-264cb253d1ba")
-	)
-	(junction
 		(at 83.82 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f332e9af-7af4-4e74-9713-48b644af9567")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 100.33 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014e0ae4-5bb7-41d2-95d5-9ac63fc5e355")
 	)
 	(wire
 		(pts
@@ -1090,33 +1131,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 130.81 45.72)
+			(xy 118.11 53.34) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27b995a4-703e-44c7-9852-b26b9f4f4a07")
-	)
-	(wire
-		(pts
-			(xy 113.03 58.42) (xy 100.33 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1fba11-7394-488b-96b3-0a512da1530f")
-	)
-	(wire
-		(pts
-			(xy 113.03 68.58) (xy 107.95 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44638fc6-c583-48a8-9810-35fdf022fdc4")
+		(uuid "3662fbb4-cc2c-49e0-85c4-0c5263baa4b7")
 	)
 	(wire
 		(pts
@@ -1130,33 +1151,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 58.42) (xy 100.33 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fabf005-87fe-4c7e-a78c-a14f91375619")
-	)
-	(wire
-		(pts
-			(xy 96.52 76.2) (xy 125.73 76.2)
+			(xy 96.52 76.2) (xy 130.81 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "515a6e21-fbba-4162-a3cc-057fc044491a")
-	)
-	(wire
-		(pts
-			(xy 107.95 68.58) (xy 107.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aadea7b-e834-4d11-9633-5b21464da73c")
 	)
 	(wire
 		(pts
@@ -1170,13 +1171,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 107.95 45.72)
+			(xy 96.52 45.72) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62eb2769-0009-4867-8184-dafc2adc3611")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ceca29-31ed-4a29-8b77-70fb85c963ac")
 	)
 	(wire
 		(pts
@@ -1190,6 +1201,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 68.58) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffd833a-6e13-432c-9c5d-a84dc1523e11")
+	)
+	(wire
+		(pts
 			(xy 96.52 48.26) (xy 96.52 45.72)
 		)
 		(stroke
@@ -1197,16 +1218,6 @@
 			(type default)
 		)
 		(uuid "7196a6f0-4f9e-49fd-947f-215f5a48c2b1")
-	)
-	(wire
-		(pts
-			(xy 85.09 63.5) (xy 85.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8c7b92-18df-4666-8cba-cef75c71fc01")
 	)
 	(wire
 		(pts
@@ -1220,13 +1231,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 130.81 76.2)
+			(xy 85.09 59.69) (xy 85.09 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "965f94d8-4cc8-41b8-830e-98b26f8ceda6")
+		(uuid "8e7c34ae-fbac-4332-b43b-760b9bcc5e32")
+	)
+	(wire
+		(pts
+			(xy 59.69 62.23) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d5009d-7b1b-46b2-bb21-b319cde98cfe")
 	)
 	(wire
 		(pts
@@ -1237,16 +1258,6 @@
 			(type default)
 		)
 		(uuid "a77d98d2-612e-4bef-a6e2-c7d0f06b4c65")
-	)
-	(wire
-		(pts
-			(xy 125.73 45.72) (xy 107.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa243fb-9385-41de-9c32-8e2a16a0f77e")
 	)
 	(wire
 		(pts
@@ -1280,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc92d9f1-2896-4f47-8287-9667aec22644")
+	)
+	(wire
+		(pts
 			(xy 59.69 54.61) (xy 73.66 54.61)
 		)
 		(stroke
@@ -1287,6 +1308,16 @@
 			(type default)
 		)
 		(uuid "c7943004-beae-44dc-a072-9ed3efbee4f5")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca33b14f-e651-4234-82f1-d7f80a6df9c3")
 	)
 	(wire
 		(pts
@@ -1300,13 +1331,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 85.09 63.5)
+			(xy 118.11 45.72) (xy 130.81 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f732b3e8-6692-49f8-8599-8a020c3d23d8")
+		(uuid "e53cc0ca-804f-4086-9843-5531b1759b5b")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd46dddb-d9dc-4b1a-8123-5f9c13251790")
 	)
 	(label "I2CSDA"
 		(at 59.69 59.69 0)
@@ -1319,7 +1360,7 @@
 		(uuid "694b289f-ca04-4f10-8a71-b4f2d694058e")
 	)
 	(label "I2CSCL"
-		(at 63.5 62.23 0)
+		(at 59.69 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1360,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 54.61 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1406,6 +1447,12 @@
 			(uuid "983f67d6-59d7-482c-996f-6fb2f826707c")
 		)
 		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "J10")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/9190de51-0203-4be2-9542-a4d25603b986"
 					(reference "J10")
@@ -1483,6 +1530,12 @@
 			(uuid "9e8386e5-683f-4767-8c32-a6ee56c6268b")
 		)
 		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/9190de51-0203-4be2-9542-a4d25603b986"
 					(reference "#PWR021")
@@ -1492,8 +1545,84 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor:BME680")
-		(at 128.27 60.96 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5877dc04-3ded-41a3-9021-4d612b44b57e")
+		(property "Reference" "H1"
+			(at 41.91 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aloe:BME680_Breakout")
+		(at 133.35 60.96 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1502,9 +1631,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ab006834-45f7-4d5d-8aba-3711e316dbe2")
-		(property "Reference" "U7"
-			(at 139.7 62.2301 0)
+		(uuid "b99439f9-2655-4a95-8fba-41ed7d895b83")
+		(property "Reference" "U1"
+			(at 144.78 62.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1514,8 +1643,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BME680"
-			(at 139.7 59.6901 0)
+		(property "Value" "BME680_Breakout"
+			(at 144.78 59.6901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,8 +1654,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 91.44 72.39 0)
+		(property "Footprint" "Aloe:BME680_Breakout_Board"
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1537,7 +1666,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-			(at 128.27 66.04 0)
+			(at 133.35 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,7 +1677,7 @@
 			)
 		)
 		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 128.27 60.96 0)
+			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,34 +1687,104 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "65b4336f-9911-47a6-9f56-5bc9261ca263")
+		(pin "6"
+			(uuid "d60c7235-3dad-4149-920d-80621f627522")
 		)
 		(pin "1"
-			(uuid "4f4bc44d-1c8a-43ba-beba-c2fdebc70a5b")
-		)
-		(pin "5"
-			(uuid "10894caa-f17f-4ec7-8359-818d12e8dd79")
+			(uuid "ffeeda1b-022d-4650-be7f-828408a79651")
 		)
 		(pin "4"
-			(uuid "5a7d8aa9-f4d8-456f-8060-1e5c74e8d906")
+			(uuid "b4421531-930e-452c-af48-f8a165596733")
 		)
-		(pin "7"
-			(uuid "150b45c8-6ded-41f6-a04a-3cce1d74c5ad")
+		(pin "2"
+			(uuid "e19577e4-a7c6-4be9-838f-6ac98d62f446")
 		)
-		(pin "8"
-			(uuid "f08f6095-a52f-465d-bc7a-fea9d2960a20")
+		(pin "5"
+			(uuid "2196b2a3-df79-4d6b-bcfc-4287719670b0")
 		)
 		(pin "3"
-			(uuid "f903d993-3f17-47f5-927b-9d012070747b")
-		)
-		(pin "6"
-			(uuid "fd03ebd2-737c-4cb3-aa86-d7bcab7bc953")
+			(uuid "95493ad6-ee37-4dcb-8c8b-f7281a2d7376")
 		)
 		(instances
-			(project "monstera"
-				(path "/9190de51-0203-4be2-9542-a4d25603b986"
-					(reference "U7")
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc6d733-6b0a-44ae-9560-77d1041a1168")
+		(property "Reference" "H3"
+			(at 41.91 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1668,9 +1867,91 @@
 			(uuid "93e9ca65-7799-41a4-be1d-e1a4f06305a5")
 		)
 		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/9190de51-0203-4be2-9542-a4d25603b986"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e118c4dd-aac1-479f-ac65-fae632b7e891")
+		(property "Reference" "H4"
+			(at 41.91 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1747,9 +2028,91 @@
 			(uuid "783a7e2a-7e02-489b-b417-e1bc6d4c5c3a")
 		)
 		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/9190de51-0203-4be2-9542-a4d25603b986"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e0e389-8f22-4b8a-b4f8-3d8a0ad5336d")
+		(property "Reference" "H2"
+			(at 41.91 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "bme680sensor"
+				(path "/615d7b86-7e42-4030-b04d-40b9cc93fcf1"
+					(reference "H2")
 					(unit 1)
 				)
 			)

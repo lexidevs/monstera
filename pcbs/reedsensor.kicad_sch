@@ -524,6 +524,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Reed"
 			(pin_numbers
 				(hide yes)
@@ -1230,9 +1329,91 @@
 			(uuid "3ca37559-7e10-49c6-bad5-75dab7afcfd5")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ad4cb87-fe44-4f8f-a7d5-6c899835c453")
+		(property "Reference" "H3"
+			(at 55.88 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 55.88 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1272,7 +1453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.03 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1312,6 +1493,12 @@
 			(uuid "cd3621ee-0f9c-4b0c-bb42-012dac9bfd5a")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "R4")
@@ -1390,9 +1577,91 @@
 			(uuid "3510c7ab-3457-4211-b91d-6ab398c863ef")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397c9e50-72d0-4e9d-836d-070b155655a2")
+		(property "Reference" "H2"
+			(at 55.88 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 55.88 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1430,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 67.31 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1473,9 +1742,91 @@
 			(uuid "a25b5f4a-b89f-4e0a-a75e-a916620c831e")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e0dc09-7040-491e-b7d5-3b65b97d57ea")
+		(property "Reference" "H4"
+			(at 55.88 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 55.88 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 53.34 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1515,7 +1866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1555,6 +1906,12 @@
 			(uuid "27f93f6e-3adf-4fff-91f5-c29e55933285")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "C2")
@@ -1597,7 +1954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-J1"
 			(at 132.08 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1637,9 +1994,91 @@
 			(uuid "cfa334ad-b5e9-450a-ad82-ccd7c34aa2a1")
 		)
 		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "monstera"
 				(path "/ed19bf13-7d2f-42f1-bf06-d29e3baf4707"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 53.34 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6cf36be-c418-486f-97ec-f3221ffa39bc")
+		(property "Reference" "H1"
+			(at 55.88 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 55.88 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "reedsensor"
+				(path "/ce879ccc-6552-4813-89f0-266e598c9a4a"
+					(reference "H1")
 					(unit 1)
 				)
 			)

@@ -4106,7 +4106,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_text "might change to different footprint with tht holes\n"
+	(gr_text "might change to different footprint with tht holes\nwill likely need to desolder JST connector to avoid interference or confusion"
 		(at 111.125 65.405 0)
 		(layer "User.4")
 		(uuid "7fd58974-bf32-4106-a911-46d602fbe823")
