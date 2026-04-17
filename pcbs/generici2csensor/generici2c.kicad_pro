@@ -485,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bme680sensor.kicad_pro",
+    "filename": "generici2c.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,12 +640,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bme680sensor.kicad_sch",
-        "name": "bme680sensor",
+        "filename": "generici2c.kicad_sch",
+        "name": "generici2c",
         "uuid": "615d7b86-7e42-4030-b04d-40b9cc93fcf1"
       }
     ],
-    "used_designators": "J1,U1,H1-4",
+    "used_designators": "M1,J1,U1,H1-4",
     "variants": []
   },
   "sheets": [
