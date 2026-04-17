@@ -316,7 +316,7 @@
 			(at 3.08 0 180)
 			(size 2.5 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J9-Pin_3)")
+			(net "Net-(J1-Pin_3)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "17a248e2-f09e-42db-8773-a9a8355a9430")
@@ -340,7 +340,7 @@
 		(at 90.805 69.85 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at -3.175 0 0)
 			(layer "F.SilkS")
 			(uuid "b7cbf106-b05d-4ff6-ab5a-eff870fd13ec")
@@ -351,7 +351,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "680pF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "91d240b4-f3e3-4df5-874d-6dabd4934dc8")
@@ -381,18 +381,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9bb4889b-0925-44a7-886a-449fc0278b43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -498,7 +486,7 @@
 		(at 85.725 69.85 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 3.175 0.635 0)
 			(layer "F.SilkS")
 			(uuid "f7758fec-ee2b-4712-930f-d0226d45c017")
@@ -539,18 +527,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2a76b14d-06db-4368-9aee-bba739017343")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -633,7 +609,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(J9-Pin_3)")
+			(net "Net-(J1-Pin_3)")
 			(pintype "passive")
 			(uuid "9c37f26e-2c74-4b63-a3c2-c6c043aacbdd")
 		)
@@ -702,18 +678,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6063d53a-a813-481d-afa2-da4657f00826")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/397c9e50-72d0-4e9d-836d-070b155655a2")
 		(sheetname "/")
@@ -774,7 +738,7 @@
 		(at 92.17 66.04 180)
 		(descr "JST PH series connector, S3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH horizontal")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at -3.715 0.635 0)
 			(layer "F.SilkS")
 			(uuid "d31c063c-694c-4886-9807-36807548dd09")
@@ -815,18 +779,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e1c75653-52c9-4cca-9a43-48ddffc2c455")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1195,7 +1147,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J9-Pin_3)")
+			(net "Net-(J1-Pin_3)")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "3022303a-f916-420f-a44a-db150fbb0562")
@@ -1262,18 +1214,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b1437480-4ef0-4e4e-bd3f-6b6e108a2ccf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1383,18 +1323,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9d611ecb-c883-4ebb-9659-4cdbfa26fc65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/96e0dc09-7040-491e-b7d5-3b65b97d57ea")
 		(sheetname "/")
@@ -1501,18 +1429,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "dedbf49d-b7bf-4643-8d14-b053ab79cd4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/f6cf36be-c418-486f-97ec-f3221ffa39bc")
 		(sheetname "/")
@@ -1573,7 +1489,7 @@
 		(at 91.44 73.025 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at -2.54 -1.905 0)
 			(layer "F.SilkS")
 			(uuid "312e4039-ca63-48d5-8e21-fdb2c792095b")
@@ -1622,8 +1538,15 @@
 			)
 		)
 		(property ki_fp_filters "TO?92*")
+		(path "/da8eb185-28b7-406c-8be0-a3c57bb18431")
 		(sheetname "/")
-		(sheetfile "halleffectsimplesensor.kicad_sch")
+		(sheetfile "reedsensor.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1769,7 +1692,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J9-Pin_3)")
+			(net "Net-(J1-Pin_3)")
 			(pinfunction "OUT_3")
 			(pintype "output")
 			(uuid "a1070e40-f507-4feb-be66-b5b3b684510e")
@@ -1915,7 +1838,7 @@
 		(end 88.9 73.025)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "001f7711-f3a8-49fe-9feb-e779529e6b03")
 	)
 	(segment
@@ -1923,7 +1846,7 @@
 		(end 84.725 69.85)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "127e00c8-8ca9-4611-b389-030b738531b5")
 	)
 	(segment
@@ -1931,7 +1854,7 @@
 		(end 84.725 69.485)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "1f25bd18-012a-48c0-b657-04ffe0ed2ff8")
 	)
 	(segment
@@ -1939,7 +1862,7 @@
 		(end 87.9 73.025)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "a03e04f5-81e4-488f-8f65-d4dc8af824ff")
 	)
 	(segment
@@ -1947,7 +1870,7 @@
 		(end 88.17 66.04)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "b1be17d1-bc7b-49cc-8f8b-ff30d5ccda90")
 	)
 	(segment
@@ -1955,7 +1878,7 @@
 		(end 87.09 74.835)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J9-Pin_3)")
+		(net "Net-(J1-Pin_3)")
 		(uuid "cb4588d6-b347-41d2-bade-6d4a046ec3d1")
 	)
 	(zone
