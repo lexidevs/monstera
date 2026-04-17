@@ -42,3 +42,5 @@ fp-info-cache
 
 # FreeCAD Backup files
 *.FCBak
+
+*.history
